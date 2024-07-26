@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.7.5">
   <diagram name="Budget Leverage" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="2134" dy="1296" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2346" dy="1296" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,8 +13,13 @@
         <mxCell id="qomRsN-KAuT30faCJROk-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qomRsN-KAuT30faCJROk-3" target="qomRsN-KAuT30faCJROk-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qomRsN-KAuT30faCJROk-3" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Net Amount of Personnel Category tab exceed Budgeted Amount + 30% OR 150K ?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="316.25" y="115" width="180" height="210" as="geometry" />
+        <mxCell id="qomRsN-KAuT30faCJROk-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="qomRsN-KAuT30faCJROk-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qomRsN-KAuT30faCJROk-3" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Net Amount of Personnel Category tab including current Input exceed Budgeted Amount + 30% OR 150K ?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="115" width="176.25" height="210" as="geometry" />
         </mxCell>
         <mxCell id="qomRsN-KAuT30faCJROk-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qomRsN-KAuT30faCJROk-6" target="qomRsN-KAuT30faCJROk-2">
           <mxGeometry relative="1" as="geometry" />
@@ -23,9 +28,30 @@
           <mxGeometry x="-100" y="165" width="110" height="110" as="geometry" />
         </mxCell>
         <mxCell id="qomRsN-KAuT30faCJROk-8" value="Display Error : Net amount cannot&amp;nbsp; &amp;nbsp; exceed from than 30% of the category&amp;nbsp;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="296.88" y="-40" width="218.75" height="110" as="geometry" />
+          <mxGeometry x="298.75" y="-50" width="218.75" height="110" as="geometry" />
         </mxCell>
         <mxCell id="qomRsN-KAuT30faCJROk-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.491;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qomRsN-KAuT30faCJROk-8" target="qomRsN-KAuT30faCJROk-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qomRsN-KAuT30faCJROk-12" value="Exceeded" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="80" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qomRsN-KAuT30faCJROk-14" value="Not Exceeded" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="490" y="190" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qomRsN-KAuT30faCJROk-15" value="Total Net Amount of all categories including current input should exceed Total Budgeted amount?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="110" width="200" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="qomRsN-KAuT30faCJROk-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.079;entryY=0.183;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="qomRsN-KAuT30faCJROk-20" target="qomRsN-KAuT30faCJROk-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="25" as="targetPoint" />
+            <mxPoint x="670" y="-90" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qomRsN-KAuT30faCJROk-20" value="Display Error : Total Net Amount cannot exceed the budgeted amount&amp;nbsp;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="605.3099999999998" y="-150" width="209.38" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="qomRsN-KAuT30faCJROk-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qomRsN-KAuT30faCJROk-15" target="qomRsN-KAuT30faCJROk-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
