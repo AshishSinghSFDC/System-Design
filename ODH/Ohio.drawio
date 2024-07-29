@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ixr9dchUkaIZIX6Q99a1-18" value="Budget Leverage Validation" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;" parent="1" vertex="1">
-          <mxGeometry x="25" y="-620" width="1050" height="330" as="geometry" />
+          <mxGeometry x="25" y="-670" width="1050" height="330" as="geometry" />
         </mxCell>
         <mxCell id="ixr9dchUkaIZIX6Q99a1-19" value="Portal User" style="swimlane;startSize=20;horizontal=0;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="ixr9dchUkaIZIX6Q99a1-18" vertex="1">
           <mxGeometry y="20" width="1050" height="140" as="geometry" />
@@ -120,10 +120,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ixr9dchUkaIZIX6Q99a1-23" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="65" y="-710" width="100" height="60" as="geometry" />
+          <mxGeometry x="65" y="-760" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ixr9dchUkaIZIX6Q99a1-33" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="965" y="-250" width="100" height="60" as="geometry" />
+          <mxGeometry x="965" y="-300" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ixr9dchUkaIZIX6Q99a1-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ixr9dchUkaIZIX6Q99a1-34" target="ixr9dchUkaIZIX6Q99a1-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
