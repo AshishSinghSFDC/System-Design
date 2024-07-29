@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.5">
   <diagram name="Budget Leverage Validation" id="o9E_ZcO-ohn3PBuyGAxh">
-    <mxGraphModel dx="1780" dy="1487" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1134" dy="1439" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -51,9 +51,11 @@
         <mxCell id="ixr9dchUkaIZIX6Q99a1-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ixr9dchUkaIZIX6Q99a1-20" source="ixr9dchUkaIZIX6Q99a1-25" target="ixr9dchUkaIZIX6Q99a1-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ixr9dchUkaIZIX6Q99a1-25" value="Calculate Category&lt;div&gt;Net Amount&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="ixr9dchUkaIZIX6Q99a1-20">
-          <mxGeometry x="40" y="40" width="100" height="100" as="geometry" />
-        </mxCell>
+        <UserObject label="Calculate Category&lt;div&gt;Net Amount&lt;/div&gt;" tooltip="Current Period + Current Category Net Amount" id="ixr9dchUkaIZIX6Q99a1-25">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="ixr9dchUkaIZIX6Q99a1-20">
+            <mxGeometry x="40" y="40" width="100" height="100" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="ixr9dchUkaIZIX6Q99a1-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ixr9dchUkaIZIX6Q99a1-20" source="ixr9dchUkaIZIX6Q99a1-27" target="ixr9dchUkaIZIX6Q99a1-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
