@@ -1,9 +1,84 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.5">
-  <diagram name="Page-1" id="o9E_ZcO-ohn3PBuyGAxh">
-    <mxGraphModel>
+  <diagram name="Budget Leverage Validation" id="o9E_ZcO-ohn3PBuyGAxh">
+    <mxGraphModel dx="1216" dy="1335" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ixr9dchUkaIZIX6Q99a1-18" value="Budget Leverage Validation" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-680" width="1000" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="ixr9dchUkaIZIX6Q99a1-19" value="Portal User" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="ixr9dchUkaIZIX6Q99a1-18">
+          <mxGeometry y="20" width="1000" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ixr9dchUkaIZIX6Q99a1-24" value="Save Expense Line Item" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="ixr9dchUkaIZIX6Q99a1-19">
+          <mxGeometry x="40" y="20" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ixr9dchUkaIZIX6Q99a1-29" value="Leverage Exceeded&amp;nbsp;&lt;div&gt;Error&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="ixr9dchUkaIZIX6Q99a1-19">
+          <mxGeometry x="370" y="40" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ixr9dchUkaIZIX6Q99a1-32" value="Budget Exceeded&amp;nbsp;&lt;div&gt;Error&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="ixr9dchUkaIZIX6Q99a1-19">
+          <mxGeometry x="690" y="40" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ixr9dchUkaIZIX6Q99a1-20" value="System" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="ixr9dchUkaIZIX6Q99a1-18">
+          <mxGeometry y="160" width="1000" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="ixr9dchUkaIZIX6Q99a1-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ixr9dchUkaIZIX6Q99a1-20" source="ixr9dchUkaIZIX6Q99a1-25" target="ixr9dchUkaIZIX6Q99a1-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ixr9dchUkaIZIX6Q99a1-25" value="Calculate Category&lt;div&gt;Net Amount&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="ixr9dchUkaIZIX6Q99a1-20">
+          <mxGeometry x="40" y="40" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ixr9dchUkaIZIX6Q99a1-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ixr9dchUkaIZIX6Q99a1-20" source="ixr9dchUkaIZIX6Q99a1-27" target="ixr9dchUkaIZIX6Q99a1-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ixr9dchUkaIZIX6Q99a1-27" value="Calculate Leverage&amp;nbsp;&lt;div&gt;Amount&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="ixr9dchUkaIZIX6Q99a1-20">
+          <mxGeometry x="200" y="40" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ixr9dchUkaIZIX6Q99a1-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ixr9dchUkaIZIX6Q99a1-20" source="ixr9dchUkaIZIX6Q99a1-28" target="ixr9dchUkaIZIX6Q99a1-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ixr9dchUkaIZIX6Q99a1-28" value="Leverage Exceeds?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="ixr9dchUkaIZIX6Q99a1-20">
+          <mxGeometry x="370" y="40" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ixr9dchUkaIZIX6Q99a1-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ixr9dchUkaIZIX6Q99a1-20" source="ixr9dchUkaIZIX6Q99a1-30" target="ixr9dchUkaIZIX6Q99a1-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ixr9dchUkaIZIX6Q99a1-30" value="Calculate All Category&lt;div&gt;Total Amount&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="ixr9dchUkaIZIX6Q99a1-20">
+          <mxGeometry x="530" y="40" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ixr9dchUkaIZIX6Q99a1-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ixr9dchUkaIZIX6Q99a1-20" source="ixr9dchUkaIZIX6Q99a1-31" target="ixr9dchUkaIZIX6Q99a1-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ixr9dchUkaIZIX6Q99a1-31" value="Calculate All Category&lt;div&gt;Budgeted Amount&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="ixr9dchUkaIZIX6Q99a1-20">
+          <mxGeometry x="690" y="40" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ixr9dchUkaIZIX6Q99a1-34" value="Save Expense&lt;div&gt;Line Item&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.stored_data;whiteSpace=wrap;" vertex="1" parent="ixr9dchUkaIZIX6Q99a1-20">
+          <mxGeometry x="870" y="60" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ixr9dchUkaIZIX6Q99a1-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ixr9dchUkaIZIX6Q99a1-18" source="ixr9dchUkaIZIX6Q99a1-24" target="ixr9dchUkaIZIX6Q99a1-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ixr9dchUkaIZIX6Q99a1-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="ixr9dchUkaIZIX6Q99a1-18" source="ixr9dchUkaIZIX6Q99a1-28" target="ixr9dchUkaIZIX6Q99a1-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ixr9dchUkaIZIX6Q99a1-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="ixr9dchUkaIZIX6Q99a1-18" source="ixr9dchUkaIZIX6Q99a1-31" target="ixr9dchUkaIZIX6Q99a1-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ixr9dchUkaIZIX6Q99a1-22" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;Budget Leverage Validations v1.0&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt; &lt;/span&gt;&amp;nbsp; July 29, 2024&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;background-color: initial; font-size: medium;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp; Ashish S.&lt;/b&gt;&lt;font size=&quot;3&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="690" y="-840" width="350" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ixr9dchUkaIZIX6Q99a1-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ixr9dchUkaIZIX6Q99a1-23" target="ixr9dchUkaIZIX6Q99a1-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ixr9dchUkaIZIX6Q99a1-23" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="80" y="-770" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ixr9dchUkaIZIX6Q99a1-33" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="910" y="-290" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ixr9dchUkaIZIX6Q99a1-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ixr9dchUkaIZIX6Q99a1-34" target="ixr9dchUkaIZIX6Q99a1-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
