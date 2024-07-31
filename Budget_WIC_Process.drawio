@@ -1,6 +1,103 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6">
-  <diagram name="Page-1" id="tZlFEFwxloF8UCR4FTqS">
-    <mxGraphModel>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6" pages="2">
+  <diagram name="Budget WIC Process v1.0" id="tZlFEFwxloF8UCR4FTqS">
+    <mxGraphModel dx="1134" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="k9cvAaP9BXHH0gqDV-Ex-19" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="k9cvAaP9BXHH0gqDV-Ex-3" target="k9cvAaP9BXHH0gqDV-Ex-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k9cvAaP9BXHH0gqDV-Ex-3" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="30" y="150" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k9cvAaP9BXHH0gqDV-Ex-20" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="k9cvAaP9BXHH0gqDV-Ex-4" target="k9cvAaP9BXHH0gqDV-Ex-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k9cvAaP9BXHH0gqDV-Ex-4" value="Open Budget Component" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="30" y="260" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="k9cvAaP9BXHH0gqDV-Ex-10" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="k9cvAaP9BXHH0gqDV-Ex-13" target="k9cvAaP9BXHH0gqDV-Ex-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="360" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="260" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k9cvAaP9BXHH0gqDV-Ex-27" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="k9cvAaP9BXHH0gqDV-Ex-10">
+          <mxGeometry x="-0.852" y="-2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k9cvAaP9BXHH0gqDV-Ex-7" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Budget WIC Process v1.0&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font size=&quot;3&quot;&gt;&lt;b&gt;July 31,2024&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;&quot; size=&quot;3&quot;&gt;&lt;b&gt;Ashish S&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="840" y="35" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="k9cvAaP9BXHH0gqDV-Ex-8" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="950" y="440" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k9cvAaP9BXHH0gqDV-Ex-22" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="k9cvAaP9BXHH0gqDV-Ex-11" target="k9cvAaP9BXHH0gqDV-Ex-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k9cvAaP9BXHH0gqDV-Ex-11" value="Add WIC Categories" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="390" y="260" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="k9cvAaP9BXHH0gqDV-Ex-12" value="Enter Categories Amount" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="570" y="260" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="k9cvAaP9BXHH0gqDV-Ex-21" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="k9cvAaP9BXHH0gqDV-Ex-13" target="k9cvAaP9BXHH0gqDV-Ex-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k9cvAaP9BXHH0gqDV-Ex-26" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="k9cvAaP9BXHH0gqDV-Ex-21">
+          <mxGeometry x="-0.1952" y="-2" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k9cvAaP9BXHH0gqDV-Ex-13" value="Is Program&lt;div&gt;&amp;nbsp;WIC?&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="210" y="260" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="k9cvAaP9BXHH0gqDV-Ex-17" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="k9cvAaP9BXHH0gqDV-Ex-14" target="k9cvAaP9BXHH0gqDV-Ex-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k9cvAaP9BXHH0gqDV-Ex-29" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="k9cvAaP9BXHH0gqDV-Ex-17">
+          <mxGeometry x="-0.1619" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k9cvAaP9BXHH0gqDV-Ex-24" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="k9cvAaP9BXHH0gqDV-Ex-14" target="k9cvAaP9BXHH0gqDV-Ex-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k9cvAaP9BXHH0gqDV-Ex-28" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="k9cvAaP9BXHH0gqDV-Ex-24">
+          <mxGeometry x="-0.2749" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k9cvAaP9BXHH0gqDV-Ex-14" value="Categories&lt;div&gt;&amp;nbsp;Amount ExceedsTotal Amount?&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="745" y="255" width="130" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="k9cvAaP9BXHH0gqDV-Ex-15" value="Save record" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="950" y="260" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="k9cvAaP9BXHH0gqDV-Ex-18" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="k9cvAaP9BXHH0gqDV-Ex-16" target="k9cvAaP9BXHH0gqDV-Ex-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k9cvAaP9BXHH0gqDV-Ex-16" value="Throw Error" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="760" y="130" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k9cvAaP9BXHH0gqDV-Ex-23" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="k9cvAaP9BXHH0gqDV-Ex-12" target="k9cvAaP9BXHH0gqDV-Ex-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k9cvAaP9BXHH0gqDV-Ex-25" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="k9cvAaP9BXHH0gqDV-Ex-15" target="k9cvAaP9BXHH0gqDV-Ex-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="542N3dq02PRFVCKxYAlc" name="Page-2">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
